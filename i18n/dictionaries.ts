@@ -156,7 +156,8 @@ const en: Dictionary = {
     },
   },
   categories: {
-    "concert-events": "CONCERT & EVENTS",
+    concerts: "CONCERTS",
+    celebrities: "CELEBRITIES",
     creative: "CREATIVE",
     fashion: "FASHION",
     portrait: "PORTRAIT",
@@ -200,8 +201,10 @@ const en: Dictionary = {
       "A range of photography and video work, always shaped around the story you want to tell.",
     cta: "Book a shoot",
     items: {
-      "concert-events":
+      concerts:
         "Live energy captured up close, from festival main stages to intimate club shows.",
+      celebrities:
+        "Red-carpet and event portraits at fashion week and film festivals, shot with speed and discretion.",
       creative:
         "Concept driven shoots and art direction for brands and artists who want something different.",
       fashion:
@@ -346,7 +349,8 @@ const de: Dictionary = {
     },
   },
   categories: {
-    "concert-events": "KONZERTE & EVENTS",
+    concerts: "KONZERTE",
+    celebrities: "CELEBRITIES",
     creative: "KREATIV",
     fashion: "MODE",
     portrait: "PORTRÄT",
@@ -390,8 +394,10 @@ const de: Dictionary = {
       "Eine Bandbreite an Foto- und Videoarbeit, immer auf die Geschichte zugeschnitten, die du erzählen willst.",
     cta: "Shooting buchen",
     items: {
-      "concert-events":
+      concerts:
         "Live-Energie aus nächster Nähe, von der Festivalbühne bis zur kleinen Clubshow.",
+      celebrities:
+        "Red-Carpet- und Event-Porträts an Fashion Weeks und Filmfestivals, schnell und diskret fotografiert.",
       creative:
         "Konzeptstarke Shootings und Art Direction für Marken und Artists, die etwas Eigenes wollen.",
       fashion:
@@ -537,7 +543,8 @@ const fr: Dictionary = {
     },
   },
   categories: {
-    "concert-events": "CONCERTS & ÉVÉNEMENTS",
+    concerts: "CONCERTS",
+    celebrities: "CÉLÉBRITÉS",
     creative: "CRÉATIF",
     fashion: "MODE",
     portrait: "PORTRAIT",
@@ -581,8 +588,10 @@ const fr: Dictionary = {
       "Une palette de travaux photo et vidéo, toujours pensés autour de l'histoire que vous voulez raconter.",
     cta: "Réserver une séance",
     items: {
-      "concert-events":
+      concerts:
         "L'énergie live capturée au plus près, des grandes scènes de festival aux petits clubs.",
+      celebrities:
+        "Portraits red carpet et événements aux fashion weeks et festivals de cinéma, réalisés avec rapidité et discrétion.",
       creative:
         "Des séances conceptuelles et de la direction artistique pour les marques et artistes qui veulent sortir du lot.",
       fashion:
@@ -726,7 +735,8 @@ const it: Dictionary = {
     },
   },
   categories: {
-    "concert-events": "CONCERTI & EVENTI",
+    concerts: "CONCERTI",
+    celebrities: "CELEBRITÀ",
     creative: "CREATIVO",
     fashion: "MODA",
     portrait: "RITRATTO",
@@ -770,8 +780,10 @@ const it: Dictionary = {
       "Una gamma di lavori foto e video, sempre costruiti attorno alla storia che vuoi raccontare.",
     cta: "Prenota uno shooting",
     items: {
-      "concert-events":
+      concerts:
         "L'energia live catturata da vicino, dai grandi palchi dei festival ai piccoli club.",
+      celebrities:
+        "Ritratti red carpet ed eventi a fashion week e festival del cinema, realizzati con rapidità e discrezione.",
       creative:
         "Shooting concettuali e direzione artistica per brand e artisti che vogliono qualcosa di diverso.",
       fashion:

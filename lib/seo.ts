@@ -11,7 +11,7 @@ export const DEFAULT_OG = "/images/about/portrait.jpg";
 
 export function pageMetadata(opts: {
   locale: Locale;
-  path: string; // "" for home, "/about", "/concert-events", ...
+  path: string; // "" for home, "/about", "/concerts", ...
   title: string;
   description: string;
   image?: string;

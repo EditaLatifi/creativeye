@@ -12,7 +12,8 @@ const UA =
 // coverPath overrides let us point a category at one of its own gallery
 // images (chosen for being representative) instead of a separate crop.
 const CATS = [
-  { slug: "concert-events", title: "CONCERT & EVENTS", nav: "CONCERT & EVENTS", cover: "58734f_271175b2f7ad4b13a7e6e00286487ba8~mv2.jpg", coverPath: "/images/covers/concert-events.jpg" },
+  { slug: "concerts", title: "CONCERTS", nav: "CONCERTS", cover: null, coverPath: "/images/concerts/003.jpg" },
+  { slug: "celebrities", title: "CELEBRITIES", nav: "CELEBRITIES", cover: null, coverPath: "/images/celebrities/014.jpg" },
   { slug: "creative", title: "CREATIVE", nav: "CREATIVE", cover: "58734f_bf181550435d460c8f39195d274f9b55~mv2.jpg", coverPath: "/images/creative/008.jpg" },
   { slug: "fashion", title: "FASHION", nav: "FASHION", cover: "58734f_e165b1b0499d4865bf116e0d0f89575e~mv2.png", coverPath: "/images/fashion/001.jpg" },
   { slug: "portrait", title: "PORTRAIT", nav: "PORTRAIT", cover: "58734f_9d159e580f2a4e4c9caaef111fb6583c~mv2.jpg", coverPath: "/images/covers/portrait.jpg" },
@@ -91,11 +92,14 @@ for (const cat of CATS) {
     };
   });
 
-  // cover (square crop, used in category tiles)
-  const cdir = path.join(IMG_ROOT, "covers");
-  fs.mkdirSync(cdir, { recursive: true });
-  const cbuf = await fetchBuf(fillUrl(cat.cover, 900, 900));
-  fs.writeFileSync(path.join(cdir, cat.slug + ".jpg"), cbuf);
+  // cover (square crop, used in category tiles) - skip when coverPath points
+  // at a gallery image (cover === null)
+  if (cat.cover) {
+    const cdir = path.join(IMG_ROOT, "covers");
+    fs.mkdirSync(cdir, { recursive: true });
+    const cbuf = await fetchBuf(fillUrl(cat.cover, 900, 900));
+    fs.writeFileSync(path.join(cdir, cat.slug + ".jpg"), cbuf);
+  }
 }
 
 console.log("Downloading portraits / hero...");

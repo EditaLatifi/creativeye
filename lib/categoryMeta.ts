@@ -5,7 +5,8 @@
 // A different image per category for the Services ("What I shoot") page,
 // so it doesn't repeat the home-page covers.
 export const servicesImage: Record<string, string> = {
-  "concert-events": "/images/concert-events/001.jpg",
+  concerts: "/images/concerts/005.jpg",
+  celebrities: "/images/celebrities/004.jpg",
   creative: "/images/creative/006.jpg",
   fashion: "/images/fashion/002.jpg",
   portrait: "/images/portrait/001.jpg",
@@ -14,7 +15,7 @@ export const servicesImage: Record<string, string> = {
 };
 
 export const categoryKeywords: Record<string, string[]> = {
-  "concert-events": [
+  concerts: [
     "concert",
     "concerts",
     "konzert",
@@ -29,6 +30,20 @@ export const categoryKeywords: Record<string, string[]> = {
     "event",
     "events",
     "rolling loud",
+  ],
+  celebrities: [
+    "celebrity",
+    "celebrities",
+    "celebrità",
+    "célébrités",
+    "prominente",
+    "stars",
+    "red carpet",
+    "fashion week",
+    "film festival",
+    "cannes",
+    "gala",
+    "premiere",
   ],
   creative: [
     "creative",

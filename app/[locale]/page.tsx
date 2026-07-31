@@ -30,16 +30,16 @@ const marqueeA = [
   "/images/cover-shoot/002.jpg",
 ];
 const marqueeB = [
-  "/images/concert-events/005.jpg",
-  "/images/concert-events/060.jpg",
+  "/images/concerts/010.jpg",
+  "/images/celebrities/006.jpg",
   "/images/wedding-events/003.jpg",
   "/images/wedding-events/012.jpg",
   "/images/fashion/015.jpg",
-  "/images/fashion/030.jpg",
+  "/images/celebrities/018.jpg",
   "/images/portrait/010.jpg",
-  "/images/portrait/020.jpg",
+  "/images/concerts/080.jpg",
   "/images/creative/010.jpg",
-  "/images/concert-events/100.jpg",
+  "/images/concerts/120.jpg",
 ];
 
 export default async function HomePage({

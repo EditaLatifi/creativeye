@@ -13,7 +13,6 @@ export const reels: string[] = [
   "https://www.instagram.com/reel/DGyMPQGAm5H/",
   "https://www.instagram.com/reel/DDHxZ7yAdHc/",
   "https://www.instagram.com/reel/C3NGqWBgk15/",
-  "https://www.instagram.com/reel/Coer4Wzqay_/",
 ];
 
 /** Turn a reel/post URL into its Instagram iframe-embed URL. */
