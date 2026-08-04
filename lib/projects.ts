@@ -14,7 +14,7 @@ export const projects: Project[] = [
   { slug: "mercedes-benz", client: "Mercedes-Benz", image: "/images/creative/003.jpg" },
   { slug: "paco-rabanne", client: "Paco Rabanne", image: "/images/creative/007.jpg" },
   { slug: "mcm", client: "MCM", image: "/images/fashion/005.jpg" },
-  { slug: "swatch", client: "Swatch", image: "/images/wedding-events/002.jpg" },
+  { slug: "swatch", client: "Swatch", image: "/images/weddings/002.jpg" },
   { slug: "urban-outfitters", client: "Urban Outfitters", image: "/images/fashion/010.jpg" },
   { slug: "logitech", client: "Logitech", image: "/images/concerts/002.jpg" },
 ];

@@ -46,6 +46,8 @@ export type Dictionary = {
     title: string;
     description: string;
     watch: string;
+    work: string;
+    onInstagram: string;
   };
   services: {
     title: string;
@@ -161,7 +163,8 @@ const en: Dictionary = {
     creative: "CREATIVE",
     fashion: "FASHION",
     portrait: "PORTRAIT",
-    "wedding-events": "WEDDING / EVENTS",
+    weddings: "WEDDINGS",
+    events: "EVENTS",
     "cover-shoot": "COVER SHOOT",
   },
   home: {
@@ -194,6 +197,8 @@ const en: Dictionary = {
     description:
       "A selection of motion work across concerts, fashion films and creative direction. You will find the full set of reels on Instagram.",
     watch: "WATCH ON INSTAGRAM",
+    work: "SELECTED FILMS",
+    onInstagram: "ON INSTAGRAM",
   },
   services: {
     title: "WHAT I SHOOT",
@@ -211,8 +216,10 @@ const en: Dictionary = {
         "Editorial and campaign imagery that puts the styling, the mood and the movement first.",
       portrait:
         "Natural, characterful portraits for artists, founders and creatives.",
-      "wedding-events":
-        "Honest, cinematic coverage of weddings and events, from start to finish.",
+      weddings:
+        "Honest, cinematic wedding coverage, from the first look to the last dance.",
+      events:
+        "Brand launches, galas and parties documented with an editorial eye.",
       "cover-shoot":
         "Cover and editorial features built to stand out on the page.",
     },
@@ -354,7 +361,8 @@ const de: Dictionary = {
     creative: "KREATIV",
     fashion: "MODE",
     portrait: "PORTRÄT",
-    "wedding-events": "HOCHZEIT / EVENTS",
+    weddings: "HOCHZEITEN",
+    events: "EVENTS",
     "cover-shoot": "COVER SHOOT",
   },
   home: {
@@ -387,6 +395,8 @@ const de: Dictionary = {
     description:
       "Eine Auswahl an Bewegtbild aus Konzerten, Modefilmen und Creative Direction. Die ganze Sammlung findest du auf Instagram.",
     watch: "AUF INSTAGRAM ANSEHEN",
+    work: "AUSGEWÄHLTE FILME",
+    onInstagram: "AUF INSTAGRAM",
   },
   services: {
     title: "WAS ICH FOTOGRAFIERE",
@@ -404,8 +414,10 @@ const de: Dictionary = {
         "Editorial- und Kampagnenbilder, bei denen Styling, Stimmung und Bewegung im Vordergrund stehen.",
       portrait:
         "Natürliche, charaktervolle Porträts für Artists, Gründer und Kreative.",
-      "wedding-events":
-        "Ehrliche, cinematische Begleitung von Hochzeiten und Events, von Anfang bis Ende.",
+      weddings:
+        "Ehrliche, cinematische Hochzeitsbegleitung, vom ersten Blick bis zum letzten Tanz.",
+      events:
+        "Marken-Launches, Galas und Partys mit editorialem Auge festgehalten.",
       "cover-shoot":
         "Cover- und Editorial-Strecken, die auf der Seite auffallen.",
     },
@@ -548,7 +560,8 @@ const fr: Dictionary = {
     creative: "CRÉATIF",
     fashion: "MODE",
     portrait: "PORTRAIT",
-    "wedding-events": "MARIAGE / ÉVÉNEMENTS",
+    weddings: "MARIAGES",
+    events: "ÉVÉNEMENTS",
     "cover-shoot": "COVER SHOOT",
   },
   home: {
@@ -581,6 +594,8 @@ const fr: Dictionary = {
     description:
       "Une sélection de travaux en mouvement autour des concerts, des films de mode et de la direction créative. La collection complète des reels est sur Instagram.",
     watch: "REGARDER SUR INSTAGRAM",
+    work: "FILMS SÉLECTIONNÉS",
+    onInstagram: "SUR INSTAGRAM",
   },
   services: {
     title: "CE QUE JE PHOTOGRAPHIE",
@@ -598,8 +613,10 @@ const fr: Dictionary = {
         "Des images éditoriales et de campagne qui mettent le stylisme, l'ambiance et le mouvement au premier plan.",
       portrait:
         "Des portraits naturels et pleins de caractère pour artistes, fondateurs et créatifs.",
-      "wedding-events":
-        "Une couverture sincère et cinématographique des mariages et événements, du début à la fin.",
+      weddings:
+        "Une couverture de mariage sincère et cinématographique, du premier regard à la dernière danse.",
+      events:
+        "Lancements de marque, galas et soirées documentés avec un œil éditorial.",
       "cover-shoot":
         "Des couvertures et sujets éditoriaux pensés pour marquer.",
     },
@@ -740,7 +757,8 @@ const it: Dictionary = {
     creative: "CREATIVO",
     fashion: "MODA",
     portrait: "RITRATTO",
-    "wedding-events": "MATRIMONIO / EVENTI",
+    weddings: "MATRIMONI",
+    events: "EVENTI",
     "cover-shoot": "COVER SHOOT",
   },
   home: {
@@ -773,6 +791,8 @@ const it: Dictionary = {
     description:
       "Una selezione di lavori in movimento tra concerti, fashion film e direzione creativa. La raccolta completa dei reel è su Instagram.",
     watch: "GUARDA SU INSTAGRAM",
+    work: "FILM SELEZIONATI",
+    onInstagram: "SU INSTAGRAM",
   },
   services: {
     title: "COSA FOTOGRAFO",
@@ -790,8 +810,10 @@ const it: Dictionary = {
         "Immagini editoriali e di campagna che mettono al centro lo styling, l'atmosfera e il movimento.",
       portrait:
         "Ritratti naturali e pieni di carattere per artisti, founder e creativi.",
-      "wedding-events":
-        "Un racconto sincero e cinematografico di matrimoni ed eventi, dall'inizio alla fine.",
+      weddings:
+        "Un racconto di matrimonio sincero e cinematografico, dal primo sguardo all'ultimo ballo.",
+      events:
+        "Lanci di brand, gala e feste documentati con occhio editoriale.",
       "cover-shoot":
         "Cover e servizi editoriali pensati per farsi notare.",
     },

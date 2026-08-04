@@ -1,0 +1,23 @@
+{
+  "root": "C:/Users/edita/Downloads",
+  "films": [
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Sony x Massiah.MP4", "slug": "sony-massiah", "title": "Sony \u00d7 Massiah", "client": "Sony" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Pkz x Sony.MP4", "slug": "pkz-sony", "title": "PKZ \u00d7 Sony", "client": "PKZ \u00b7 Sony" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Porsche1.3_4.MP4", "slug": "porsche", "title": "Porsche", "client": "Porsche" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Samsonite Final 1.4.MP4", "slug": "samsonite", "title": "Samsonite", "client": "Samsonite" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Samsonite Backpack Final 1.0.MP4", "slug": "samsonite-backpack", "title": "Samsonite \u2014 Backpack", "client": "Samsonite" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Sony Roadshow - 1.0.MP4", "slug": "sony-roadshow", "title": "Sony Roadshow", "client": "Sony" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "MaxLBxSony Final1.MOV", "slug": "maxlb-sony", "title": "Max LB \u00d7 Sony", "client": "Sony" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "dervis boxing vid 1.1.MP4", "slug": "dervis-boxing", "title": "Dervis \u2014 Boxing", "client": "Sport" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "U19 GC 2.0.MP4", "slug": "u19-gc", "title": "U19 GC", "client": "Sport" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Royal Family - TBB.MP4", "slug": "royal-family", "title": "Royal Family", "client": "TBB" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "perspective-final.MP4", "slug": "perspective", "title": "Perspective", "client": "Short Film" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Ermi Final Version 1.0.mov", "slug": "ermi", "title": "Ermi", "client": "Portrait Film" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "YUKI STUDIO 1.MP4", "slug": "yuki-studio", "title": "Yuki Studio", "client": "Studio" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Vogese Rueche 2026 - 1.0.mp4", "slug": "vogese-rueche", "title": "Vogese Rueche 2026", "client": "Campaign" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "SMMAC 9 - 0.1.MP4", "slug": "smmac-9", "title": "SMMAC 9", "client": "Event" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Bahar & Senna 1.MP4", "slug": "bahar-senna", "title": "Bahar & Senna", "client": "Short Film" },
+    { "folder": "swisstransfer_22b691d0-8ca3-4fdb-8d57-2f900c4051ea", "file": "Sony Roadshow - long version 1.0.mp4", "slug": "sony-roadshow-long", "title": "Sony Roadshow \u2014 Long Cut", "client": "Sony" },
+    { "folder": "swisstransfer_dd0d9553-e3dc-44a0-a019-90fadc088903", "file": "Tetiana & Avni 1.0.mp4", "slug": "tetiana-avni", "title": "Tetiana & Avni", "client": "Wedding Film" }
+  ]
+}

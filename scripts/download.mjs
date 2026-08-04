@@ -17,7 +17,8 @@ const CATS = [
   { slug: "creative", title: "CREATIVE", nav: "CREATIVE", cover: "58734f_bf181550435d460c8f39195d274f9b55~mv2.jpg", coverPath: "/images/creative/008.jpg" },
   { slug: "fashion", title: "FASHION", nav: "FASHION", cover: "58734f_e165b1b0499d4865bf116e0d0f89575e~mv2.png", coverPath: "/images/fashion/001.jpg" },
   { slug: "portrait", title: "PORTRAIT", nav: "PORTRAIT", cover: "58734f_9d159e580f2a4e4c9caaef111fb6583c~mv2.jpg", coverPath: "/images/covers/portrait.jpg" },
-  { slug: "wedding-events", title: "WEDDING / EVENTS", nav: "WEDDING/EVENTS", cover: "58734f_381ba81c20954d2180897bde85e7a362~mv2.jpg", coverPath: "/images/wedding-events/008.jpg" },
+  { slug: "weddings", title: "WEDDINGS", nav: "WEDDINGS", cover: null, coverPath: "/images/weddings/008.jpg" },
+  { slug: "events", title: "EVENTS", nav: "EVENTS", cover: null, coverPath: "/images/events/006.jpg" },
   { slug: "cover-shoot", title: "COVER SHOOT", nav: "COVER SHOOT", cover: "58734f_40da0c7d115a4bcdb1c442d7ee617480~mv2.jpg", coverPath: "/images/covers/cover-shoot.jpg" },
 ];
 

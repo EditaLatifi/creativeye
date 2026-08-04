@@ -32,8 +32,8 @@ const marqueeA = [
 const marqueeB = [
   "/images/concerts/010.jpg",
   "/images/celebrities/006.jpg",
-  "/images/wedding-events/003.jpg",
-  "/images/wedding-events/012.jpg",
+  "/images/weddings/007.jpg",
+  "/images/events/006.jpg",
   "/images/fashion/015.jpg",
   "/images/celebrities/018.jpg",
   "/images/portrait/010.jpg",

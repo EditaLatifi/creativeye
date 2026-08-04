@@ -121,8 +121,8 @@ app/
   [locale]/
     layout.tsx           Root layout (per-locale <html lang>, header, footer, JSON-LD)
     page.tsx             Home, category grid
-    [category]/page.tsx  Gallery pages (concert-events, creative, fashion,
-                         portrait, wedding-events, cover-shoot)
+    [category]/page.tsx  Gallery pages (concerts, celebrities, creative, fashion,
+                         portrait, weddings, events, cover-shoot)
     videos/page.tsx      Videos
     about/page.tsx       About Me
     services/page.tsx    What I shoot + FAQ (FAQPage JSON-LD)
