@@ -190,7 +190,7 @@ const en: Dictionary = {
     message: "Message",
     send: "SEND",
     sentNote:
-      "Your email app should have opened. If it did not, just write to {email}.",
+      "Thank you — your message has been sent. I'll get back to you soon. You can also reach me at {email}.",
   },
   videos: {
     title: "VIDEOS",
@@ -262,7 +262,7 @@ const en: Dictionary = {
     message: "About the project",
     send: "REQUEST BOOKING",
     sentNote:
-      "Your email app should have opened. If it did not, just write to {email}.",
+      "Thank you — your message has been sent. I'll get back to you soon. You can also reach me at {email}.",
   },
   instagram: {
     title: "FOLLOW ALONG",
@@ -388,7 +388,7 @@ const de: Dictionary = {
     message: "Nachricht",
     send: "SENDEN",
     sentNote:
-      "Dein E-Mail-Programm sollte sich geöffnet haben. Falls nicht, schreib an {email}.",
+      "Merci — deine Nachricht ist verschickt. Ich melde mich bald. Du erreichsch mich au unter {email}.",
   },
   videos: {
     title: "VIDEOS",
@@ -460,7 +460,7 @@ const de: Dictionary = {
     message: "Zum Projekt",
     send: "ANFRAGE SENDEN",
     sentNote:
-      "Dein E-Mail-Programm sollte sich geöffnet haben. Falls nicht, schreib an {email}.",
+      "Merci — deine Nachricht ist verschickt. Ich melde mich bald. Du erreichsch mich au unter {email}.",
   },
   instagram: {
     title: "FOLGE MIR",
@@ -587,7 +587,7 @@ const fr: Dictionary = {
     message: "Message",
     send: "ENVOYER",
     sentNote:
-      "Votre messagerie devrait s'être ouverte. Sinon, écrivez à {email}.",
+      "Merci — votre message a bien été envoyé. Je vous réponds vite. Vous pouvez aussi m'écrire à {email}.",
   },
   videos: {
     title: "VIDÉOS",
@@ -659,7 +659,7 @@ const fr: Dictionary = {
     message: "À propos du projet",
     send: "DEMANDER UNE RÉSERVATION",
     sentNote:
-      "Votre messagerie devrait s'être ouverte. Sinon, écrivez à {email}.",
+      "Merci — votre message a bien été envoyé. Je vous réponds vite. Vous pouvez aussi m'écrire à {email}.",
   },
   instagram: {
     title: "SUIVEZ-MOI",
@@ -784,7 +784,7 @@ const it: Dictionary = {
     message: "Messaggio",
     send: "INVIA",
     sentNote:
-      "Il tuo programma di posta dovrebbe essersi aperto. In caso contrario, scrivi a {email}.",
+      "Grazie — il tuo messaggio è stato inviato. Ti rispondo presto. Puoi anche scrivermi a {email}.",
   },
   videos: {
     title: "VIDEO",
@@ -856,7 +856,7 @@ const it: Dictionary = {
     message: "Sul progetto",
     send: "RICHIEDI PRENOTAZIONE",
     sentNote:
-      "Il tuo programma di posta dovrebbe essersi aperto. In caso contrario, scrivi a {email}.",
+      "Grazie — il tuo messaggio è stato inviato. Ti rispondo presto. Puoi anche scrivermi a {email}.",
   },
   instagram: {
     title: "SEGUIMI",

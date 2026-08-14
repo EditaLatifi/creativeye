@@ -18,6 +18,9 @@ function detectLocale(req: NextRequest): string {
 export function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
+  // API routes are locale-agnostic — never prefix them.
+  if (pathname.startsWith("/api/")) return NextResponse.next();
+
   const hasLocale = locales.some(
     (l) => pathname === `/${l}` || pathname.startsWith(`/${l}/`)
   );
@@ -31,5 +34,5 @@ export function middleware(req: NextRequest) {
 
 export const config = {
   // Run on everything except Next internals, static assets, and files with an extension.
-  matcher: ["/((?!_next|images|favicon|.*\\..*).*)"],
+  matcher: ["/((?!api|_next|images|favicon|.*\\..*).*)"],
 };
